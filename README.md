@@ -32,3 +32,9 @@ fontawesome不仅可以添加到view上,也可以使用在我们的tabbar和navg
 
 
 此外,添加了关于天气的新iocn,可以给天气app使用
+
+
+
+新添加了大量iocn
+在pod中添加此iocn即可,具体方法在代码中MasterViewController可查看
+pod 'VCMaterialDesignIcons'
