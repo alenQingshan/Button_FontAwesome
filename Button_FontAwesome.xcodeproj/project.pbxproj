@@ -1,0 +1,519 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EA9AEE9F1CED4D5E009EFF61 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EA9AEE9E1CED4D5E009EFF61 /* main.m */; };
+		EA9AEEA21CED4D5E009EFF61 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EA9AEEA11CED4D5E009EFF61 /* AppDelegate.m */; };
+		EA9AEEA51CED4D5E009EFF61 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA9AEEA41CED4D5E009EFF61 /* ViewController.m */; };
+		EA9AEEA81CED4D5E009EFF61 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA9AEEA61CED4D5E009EFF61 /* Main.storyboard */; };
+		EA9AEEAA1CED4D5E009EFF61 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA9AEEA91CED4D5E009EFF61 /* Assets.xcassets */; };
+		EA9AEEAD1CED4D5E009EFF61 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA9AEEAB1CED4D5E009EFF61 /* LaunchScreen.storyboard */; };
+		EA9AEEB81CED4D5E009EFF61 /* Button_FontAwesomeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EA9AEEB71CED4D5E009EFF61 /* Button_FontAwesomeTests.m */; };
+		EA9AEEC31CED4D5E009EFF61 /* Button_FontAwesomeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EA9AEEC21CED4D5E009EFF61 /* Button_FontAwesomeUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EA9AEEB41CED4D5E009EFF61 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EA9AEE921CED4D5E009EFF61 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EA9AEE991CED4D5E009EFF61;
+			remoteInfo = Button_FontAwesome;
+		};
+		EA9AEEBF1CED4D5E009EFF61 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EA9AEE921CED4D5E009EFF61 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EA9AEE991CED4D5E009EFF61;
+			remoteInfo = Button_FontAwesome;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EA9AEE9A1CED4D5E009EFF61 /* Button_FontAwesome.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Button_FontAwesome.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA9AEE9E1CED4D5E009EFF61 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EA9AEEA01CED4D5E009EFF61 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EA9AEEA11CED4D5E009EFF61 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EA9AEEA31CED4D5E009EFF61 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EA9AEEA41CED4D5E009EFF61 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EA9AEEA71CED4D5E009EFF61 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EA9AEEA91CED4D5E009EFF61 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EA9AEEAC1CED4D5E009EFF61 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EA9AEEAE1CED4D5E009EFF61 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA9AEEB31CED4D5E009EFF61 /* Button_FontAwesomeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Button_FontAwesomeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA9AEEB71CED4D5E009EFF61 /* Button_FontAwesomeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Button_FontAwesomeTests.m; sourceTree = "<group>"; };
+		EA9AEEB91CED4D5E009EFF61 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA9AEEBE1CED4D5E009EFF61 /* Button_FontAwesomeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Button_FontAwesomeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA9AEEC21CED4D5E009EFF61 /* Button_FontAwesomeUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Button_FontAwesomeUITests.m; sourceTree = "<group>"; };
+		EA9AEEC41CED4D5E009EFF61 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EA9AEE971CED4D5E009EFF61 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA9AEEB01CED4D5E009EFF61 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA9AEEBB1CED4D5E009EFF61 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EA9AEE911CED4D5E009EFF61 = {
+			isa = PBXGroup;
+			children = (
+				EA9AEE9C1CED4D5E009EFF61 /* Button_FontAwesome */,
+				EA9AEEB61CED4D5E009EFF61 /* Button_FontAwesomeTests */,
+				EA9AEEC11CED4D5E009EFF61 /* Button_FontAwesomeUITests */,
+				EA9AEE9B1CED4D5E009EFF61 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EA9AEE9B1CED4D5E009EFF61 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EA9AEE9A1CED4D5E009EFF61 /* Button_FontAwesome.app */,
+				EA9AEEB31CED4D5E009EFF61 /* Button_FontAwesomeTests.xctest */,
+				EA9AEEBE1CED4D5E009EFF61 /* Button_FontAwesomeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EA9AEE9C1CED4D5E009EFF61 /* Button_FontAwesome */ = {
+			isa = PBXGroup;
+			children = (
+				EA9AEEA01CED4D5E009EFF61 /* AppDelegate.h */,
+				EA9AEEA11CED4D5E009EFF61 /* AppDelegate.m */,
+				EA9AEEA31CED4D5E009EFF61 /* ViewController.h */,
+				EA9AEEA41CED4D5E009EFF61 /* ViewController.m */,
+				EA9AEEA61CED4D5E009EFF61 /* Main.storyboard */,
+				EA9AEEA91CED4D5E009EFF61 /* Assets.xcassets */,
+				EA9AEEAB1CED4D5E009EFF61 /* LaunchScreen.storyboard */,
+				EA9AEEAE1CED4D5E009EFF61 /* Info.plist */,
+				EA9AEE9D1CED4D5E009EFF61 /* Supporting Files */,
+			);
+			path = Button_FontAwesome;
+			sourceTree = "<group>";
+		};
+		EA9AEE9D1CED4D5E009EFF61 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EA9AEE9E1CED4D5E009EFF61 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EA9AEEB61CED4D5E009EFF61 /* Button_FontAwesomeTests */ = {
+			isa = PBXGroup;
+			children = (
+				EA9AEEB71CED4D5E009EFF61 /* Button_FontAwesomeTests.m */,
+				EA9AEEB91CED4D5E009EFF61 /* Info.plist */,
+			);
+			path = Button_FontAwesomeTests;
+			sourceTree = "<group>";
+		};
+		EA9AEEC11CED4D5E009EFF61 /* Button_FontAwesomeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EA9AEEC21CED4D5E009EFF61 /* Button_FontAwesomeUITests.m */,
+				EA9AEEC41CED4D5E009EFF61 /* Info.plist */,
+			);
+			path = Button_FontAwesomeUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EA9AEE991CED4D5E009EFF61 /* Button_FontAwesome */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA9AEEC71CED4D5E009EFF61 /* Build configuration list for PBXNativeTarget "Button_FontAwesome" */;
+			buildPhases = (
+				EA9AEE961CED4D5E009EFF61 /* Sources */,
+				EA9AEE971CED4D5E009EFF61 /* Frameworks */,
+				EA9AEE981CED4D5E009EFF61 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Button_FontAwesome;
+			productName = Button_FontAwesome;
+			productReference = EA9AEE9A1CED4D5E009EFF61 /* Button_FontAwesome.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EA9AEEB21CED4D5E009EFF61 /* Button_FontAwesomeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA9AEECA1CED4D5E009EFF61 /* Build configuration list for PBXNativeTarget "Button_FontAwesomeTests" */;
+			buildPhases = (
+				EA9AEEAF1CED4D5E009EFF61 /* Sources */,
+				EA9AEEB01CED4D5E009EFF61 /* Frameworks */,
+				EA9AEEB11CED4D5E009EFF61 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EA9AEEB51CED4D5E009EFF61 /* PBXTargetDependency */,
+			);
+			name = Button_FontAwesomeTests;
+			productName = Button_FontAwesomeTests;
+			productReference = EA9AEEB31CED4D5E009EFF61 /* Button_FontAwesomeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EA9AEEBD1CED4D5E009EFF61 /* Button_FontAwesomeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA9AEECD1CED4D5E009EFF61 /* Build configuration list for PBXNativeTarget "Button_FontAwesomeUITests" */;
+			buildPhases = (
+				EA9AEEBA1CED4D5E009EFF61 /* Sources */,
+				EA9AEEBB1CED4D5E009EFF61 /* Frameworks */,
+				EA9AEEBC1CED4D5E009EFF61 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EA9AEEC01CED4D5E009EFF61 /* PBXTargetDependency */,
+			);
+			name = Button_FontAwesomeUITests;
+			productName = Button_FontAwesomeUITests;
+			productReference = EA9AEEBE1CED4D5E009EFF61 /* Button_FontAwesomeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EA9AEE921CED4D5E009EFF61 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "刘青山";
+				TargetAttributes = {
+					EA9AEE991CED4D5E009EFF61 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					EA9AEEB21CED4D5E009EFF61 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = EA9AEE991CED4D5E009EFF61;
+					};
+					EA9AEEBD1CED4D5E009EFF61 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = EA9AEE991CED4D5E009EFF61;
+					};
+				};
+			};
+			buildConfigurationList = EA9AEE951CED4D5E009EFF61 /* Build configuration list for PBXProject "Button_FontAwesome" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EA9AEE911CED4D5E009EFF61;
+			productRefGroup = EA9AEE9B1CED4D5E009EFF61 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EA9AEE991CED4D5E009EFF61 /* Button_FontAwesome */,
+				EA9AEEB21CED4D5E009EFF61 /* Button_FontAwesomeTests */,
+				EA9AEEBD1CED4D5E009EFF61 /* Button_FontAwesomeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EA9AEE981CED4D5E009EFF61 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA9AEEAD1CED4D5E009EFF61 /* LaunchScreen.storyboard in Resources */,
+				EA9AEEAA1CED4D5E009EFF61 /* Assets.xcassets in Resources */,
+				EA9AEEA81CED4D5E009EFF61 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA9AEEB11CED4D5E009EFF61 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA9AEEBC1CED4D5E009EFF61 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EA9AEE961CED4D5E009EFF61 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA9AEEA51CED4D5E009EFF61 /* ViewController.m in Sources */,
+				EA9AEEA21CED4D5E009EFF61 /* AppDelegate.m in Sources */,
+				EA9AEE9F1CED4D5E009EFF61 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA9AEEAF1CED4D5E009EFF61 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA9AEEB81CED4D5E009EFF61 /* Button_FontAwesomeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA9AEEBA1CED4D5E009EFF61 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA9AEEC31CED4D5E009EFF61 /* Button_FontAwesomeUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EA9AEEB51CED4D5E009EFF61 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EA9AEE991CED4D5E009EFF61 /* Button_FontAwesome */;
+			targetProxy = EA9AEEB41CED4D5E009EFF61 /* PBXContainerItemProxy */;
+		};
+		EA9AEEC01CED4D5E009EFF61 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EA9AEE991CED4D5E009EFF61 /* Button_FontAwesome */;
+			targetProxy = EA9AEEBF1CED4D5E009EFF61 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EA9AEEA61CED4D5E009EFF61 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EA9AEEA71CED4D5E009EFF61 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EA9AEEAB1CED4D5E009EFF61 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EA9AEEAC1CED4D5E009EFF61 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EA9AEEC51CED4D5E009EFF61 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EA9AEEC61CED4D5E009EFF61 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EA9AEEC81CED4D5E009EFF61 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Button_FontAwesome/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.canls.Button-FontAwesome";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EA9AEEC91CED4D5E009EFF61 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Button_FontAwesome/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.canls.Button-FontAwesome";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EA9AEECB1CED4D5E009EFF61 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = Button_FontAwesomeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.canls.Button-FontAwesomeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Button_FontAwesome.app/Button_FontAwesome";
+			};
+			name = Debug;
+		};
+		EA9AEECC1CED4D5E009EFF61 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = Button_FontAwesomeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.canls.Button-FontAwesomeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Button_FontAwesome.app/Button_FontAwesome";
+			};
+			name = Release;
+		};
+		EA9AEECE1CED4D5E009EFF61 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = Button_FontAwesomeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.canls.Button-FontAwesomeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Button_FontAwesome;
+			};
+			name = Debug;
+		};
+		EA9AEECF1CED4D5E009EFF61 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = Button_FontAwesomeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.canls.Button-FontAwesomeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Button_FontAwesome;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EA9AEE951CED4D5E009EFF61 /* Build configuration list for PBXProject "Button_FontAwesome" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA9AEEC51CED4D5E009EFF61 /* Debug */,
+				EA9AEEC61CED4D5E009EFF61 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA9AEEC71CED4D5E009EFF61 /* Build configuration list for PBXNativeTarget "Button_FontAwesome" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA9AEEC81CED4D5E009EFF61 /* Debug */,
+				EA9AEEC91CED4D5E009EFF61 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EA9AEECA1CED4D5E009EFF61 /* Build configuration list for PBXNativeTarget "Button_FontAwesomeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA9AEECB1CED4D5E009EFF61 /* Debug */,
+				EA9AEECC1CED4D5E009EFF61 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EA9AEECD1CED4D5E009EFF61 /* Build configuration list for PBXNativeTarget "Button_FontAwesomeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA9AEECE1CED4D5E009EFF61 /* Debug */,
+				EA9AEECF1CED4D5E009EFF61 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EA9AEE921CED4D5E009EFF61 /* Project object */;
+}
