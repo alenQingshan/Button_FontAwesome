@@ -10,6 +10,21 @@
 	<string>46</string>
 	<key>objects</key>
 	<dict>
+		<key>020CE11BB4EFAE0C820AEC3477554FC9</key>
+		<dict>
+			<key>explicitFileType</key>
+			<string>archive.ar</string>
+			<key>includeInIndex</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>name</key>
+			<string>libFontAwesome.a</string>
+			<key>path</key>
+			<string>libFontAwesome.a</string>
+			<key>sourceTree</key>
+			<string>BUILT_PRODUCTS_DIR</string>
+		</dict>
 		<key>02371982D9CA9C40F53BD3A122A10430</key>
 		<dict>
 			<key>buildConfigurations</key>
@@ -36,17 +51,6 @@
 			<string>Targets Support Files</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
-		</dict>
-		<key>048E58C4BADA9F95AC6DAAF160C22678</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXTargetDependency</string>
-			<key>name</key>
-			<string>FontAwesomeIconFactory</string>
-			<key>target</key>
-			<string>ED4AECDBFBFFC4466DF47CBF08CC4ACA</string>
-			<key>targetProxy</key>
-			<string>AE1324A6CBA3659B74021E335D9936CE</string>
 		</dict>
 		<key>052A17875CB827423D627183396CEB60</key>
 		<dict>
@@ -116,41 +120,70 @@
 			<key>name</key>
 			<string>Release</string>
 		</dict>
-		<key>06E1AC6DBBFFFE3C21819DC2ECE04973</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>3D46F9B22803CEC0531EF718AA8F8FCB</string>
-				<string>A2653F85FB008C595ECA41654A7C2327</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>076E465A288911D10A5843D5483233DB</key>
-		<dict>
-			<key>fileRef</key>
-			<string>EFEC3C66A759D149FE67CB455CE8C916</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>084D8D0132A4765A74C28EE67DA8CA8E</key>
+		<key>06F4D5940661B6FBEF1F97F41C1D1733</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
+			<string>sourcecode.c.objc</string>
 			<key>name</key>
-			<string>NIKFontAwesomePathRenderer.h</string>
+			<string>NIKFontAwesomeIconFactory.m</string>
 			<key>path</key>
-			<string>FontAwesomeIconFactory/NIKFontAwesomePathRenderer.h</string>
+			<string>FontAwesomeIconFactory/NIKFontAwesomeIconFactory.m</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
+		</dict>
+		<key>076E465A288911D10A5843D5483233DB</key>
+		<dict>
+			<key>fileRef</key>
+			<string>55AA6F3ADC51222587847C98FD26244B</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>09B007EA21636CD438E4BF5CD444EC3C</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>020CE11BB4EFAE0C820AEC3477554FC9</string>
+				<string>801D0526A864B9065878C8C62C17FD21</string>
+				<string>E2C565C6D5D189C0F406F0C8E9DE55FF</string>
+				<string>9FB27D462AE6E1D7CA332990955B23BF</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Products</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>0A9CB0D5FA308813A64A8F97A83E4101</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>NSString+FontAwesome.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>0C14EE2F896B6B457613419E9FDD593F</key>
+		<dict>
+			<key>fileRef</key>
+			<string>1ABF84B159F1A26EB1FFCB49FFB78436</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
 		</dict>
 		<key>0CE6E00666DFA1C10B1FAB148592992C</key>
 		<dict>
@@ -171,10 +204,23 @@
 			<key>runOnlyForDeploymentPostprocessing</key>
 			<string>0</string>
 		</dict>
+		<key>0F3F807E856CF5DAA2A3C2EC9E533664</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>F154A48375F1DA9F7D4A90E981F006EA</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Resources</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
 		<key>0F5AE962F85FFBC270D0FB6D494265E5</key>
 		<dict>
 			<key>fileRef</key>
-			<string>B730D05093458A3FE39BB183785BC15E</string>
+			<string>D96AA6C45532FA807F04A451C9B96441</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -196,87 +242,91 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>13E81A809DD9408E68673B37665DED4C</key>
+		<key>111C5C6746DEE0355C54947B37339B80</key>
 		<dict>
-			<key>fileRef</key>
-			<string>BF2B0D1B8A34FC930CA0E93BBD07C8B8</string>
+			<key>containerPortal</key>
+			<string>D41D8CD98F00B204E9800998ECF8427E</string>
 			<key>isa</key>
-			<string>PBXBuildFile</string>
+			<string>PBXContainerItemProxy</string>
+			<key>proxyType</key>
+			<string>1</string>
+			<key>remoteGlobalIDString</key>
+			<string>ED4AECDBFBFFC4466DF47CBF08CC4ACA</string>
+			<key>remoteInfo</key>
+			<string>FontAwesomeIconFactory</string>
 		</dict>
-		<key>14B8B9B15ECBE87983FF987239AB2D7B</key>
+		<key>14353668E8B028CB09469D5B897E6C1A</key>
 		<dict>
-			<key>children</key>
-			<array>
-				<string>1639910A07717C71318462187B997D1C</string>
-			</array>
+			<key>includeInIndex</key>
+			<string>1</string>
 			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Frameworks</string>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>UIFont+FontAwesome.m</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>1639910A07717C71318462187B997D1C</key>
+		<key>146B9C4D0BF5A62ECF831211026C1DAD</key>
 		<dict>
-			<key>children</key>
-			<array>
-				<string>99B09D3C290DADFB5952F74C0013E89C</string>
-				<string>EA3ECF9C15C1A2957D150DF5904F3EBA</string>
-				<string>BF2B0D1B8A34FC930CA0E93BBD07C8B8</string>
-				<string>C78D6601B5199195839BAC7E15DEB3CA</string>
-			</array>
+			<key>includeInIndex</key>
+			<string>1</string>
 			<key>isa</key>
-			<string>PBXGroup</string>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
 			<key>name</key>
-			<string>iOS</string>
+			<string>NIKFontAwesomeIconFactory.h</string>
+			<key>path</key>
+			<string>FontAwesomeIconFactory/NIKFontAwesomeIconFactory.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
+		</dict>
+		<key>177968BA4E52B2100A63BCC62D5DBAA5</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>0C14EE2F896B6B457613419E9FDD593F</string>
+			</array>
+			<key>isa</key>
+			<string>PBXHeadersBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
 		</dict>
 		<key>19743179650AC135BB5485C7426A1238</key>
 		<dict>
 			<key>fileRef</key>
-			<string>9ABBE4B6BDAC0E8A39FABB03903EEB31</string>
+			<string>7C043BD608FB81B5503B4B286A699037</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
+		</dict>
+		<key>1ABF84B159F1A26EB1FFCB49FFB78436</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>VCMaterialDesignIcons.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
 		</dict>
 		<key>1D1C821F54FA6CC734028F9274058763</key>
 		<dict>
 			<key>fileRef</key>
-			<string>99B09D3C290DADFB5952F74C0013E89C</string>
+			<string>B81BD95B237A4AFF15810681E28654D0</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
-		</dict>
-		<key>1ED8CA9ACD0CE23409B52EF73E4B5FC5</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>06E1AC6DBBFFFE3C21819DC2ECE04973</string>
-			<key>buildPhases</key>
-			<array>
-				<string>35895D68BA13FC6F2C6E78078162E6DF</string>
-				<string>D52C2E7D652C623B65E6FE33C6EDE5C1</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array>
-				<string>6EB5A60973D9283DE79582F1E18B0691</string>
-				<string>048E58C4BADA9F95AC6DAAF160C22678</string>
-			</array>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>Pods</string>
-			<key>productName</key>
-			<string>Pods</string>
-			<key>productReference</key>
-			<string>CB46F17046EFA2CDEE7619ECEBA81DB8</string>
-			<key>productType</key>
-			<string>com.apple.product-type.library.static</string>
 		</dict>
 		<key>1F6EE629317BAAA1BE283CBF14A6B350</key>
 		<dict>
 			<key>baseConfigurationReference</key>
-			<string>88AC921CBE1FF8990D3E775E02AA9E69</string>
+			<string>8F7F9AE31F5B2E7AE494EA1FB31B1097</string>
 			<key>buildSettings</key>
 			<dict>
 				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
@@ -307,10 +357,66 @@
 			<key>name</key>
 			<string>Debug</string>
 		</dict>
+		<key>1F84042CC729059252C3B5BA146553FE</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>VCMaterialDesignIcons.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>20B56609144CE204DFA8221F742B2D76</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>7D0CA9D18631E9FFA90643A29C731164</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Frameworks</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>21C36FD9C7EC40A2E28E0ED0CE7A8D16</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>wrapper.framework</string>
+			<key>name</key>
+			<string>Coretext.framework</string>
+			<key>path</key>
+			<string>Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Coretext.framework</string>
+			<key>sourceTree</key>
+			<string>DEVELOPER_DIR</string>
+		</dict>
+		<key>226E0FF72BAC59E4F7F131A8C302A461</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>2B06A1F84A1E82D0EB9420739CB436AE</string>
+				<string>7C043BD608FB81B5503B4B286A699037</string>
+				<string>767D63D00807A123CB9D2DB197290093</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Support Files</string>
+			<key>path</key>
+			<string>../Target Support Files/FontAwesomeIconFactory</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
 		<key>2428F22CAF49F5D7CB62E02EA74A50D7</key>
 		<dict>
 			<key>fileRef</key>
-			<string>FF43D279ADF186D2FB5FF2F77B5B52D5</string>
+			<string>146B9C4D0BF5A62ECF831211026C1DAD</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -320,6 +426,21 @@
 					<string>Public</string>
 				</array>
 			</dict>
+		</dict>
+		<key>26BFE211096A5ACE274C3E05C843862C</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>NIKFontAwesomeButton.m</string>
+			<key>path</key>
+			<string>FontAwesomeIconFactory/iOS/NIKFontAwesomeButton.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
 		</dict>
 		<key>272643F56613CA0D336AE3DBF19DC404</key>
 		<dict>
@@ -331,6 +452,30 @@
 			<string>sourcecode.c.objc</string>
 			<key>path</key>
 			<string>Pods-dummy.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>2AE1D7052C6F3561F3B0BE0A1152919E</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXTargetDependency</string>
+			<key>name</key>
+			<string>FontAwesome</string>
+			<key>target</key>
+			<string>4F12BBFCA7BEB12EE3268EA5AA1FC3D7</string>
+			<key>targetProxy</key>
+			<string>893687414ACB38E7F5DE5CCAEE5D5116</string>
+		</dict>
+		<key>2B06A1F84A1E82D0EB9420739CB436AE</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.xcconfig</string>
+			<key>path</key>
+			<string>FontAwesomeIconFactory.xcconfig</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
@@ -348,109 +493,7 @@
 			<key>isa</key>
 			<string>XCConfigurationList</string>
 		</dict>
-		<key>2F495C57943647F168BDEC65F20E805B</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>NIKFontAwesomeTabBarItem.m</string>
-			<key>path</key>
-			<string>FontAwesomeIconFactory/iOS/NIKFontAwesomeTabBarItem.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>30BB60568CC2AD355945E1FB8CEE7AE9</key>
-		<dict>
-			<key>fileRef</key>
-			<string>BF2B0D1B8A34FC930CA0E93BBD07C8B8</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>354E90CDDCF6347B287853F37534A361</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>BCDA3F8942D4CCC6C64C1DC2E278C94F</string>
-				<string>7E6A2339D39958A7258A1ADCD9992E2E</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Pods</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>35895D68BA13FC6F2C6E78078162E6DF</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>B623F690F9BDC8D10EE1242433FC7902</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>37DB56D75062CC75FCB0966E1C6E8A8E</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text</string>
-			<key>path</key>
-			<string>Pods-acknowledgements.markdown</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>390004970A753B5941C1825F1C6F58BF</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>44823190AF7093B8754DBAE026A6CF5C</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Resources</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>3A88C10239EA27D4327988501327C22C</key>
-		<dict>
-			<key>fileRef</key>
-			<string>E929B25CDB9D84B81DA6234038F67204</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>3A8CB35B7B4CF1666BE71D22F9F28E41</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>FontAwesome.otf</string>
-			<key>path</key>
-			<string>Font-Awesome/fonts/FontAwesome.otf</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>3D46F9B22803CEC0531EF718AA8F8FCB</key>
+		<key>2DFEF794AAEB3FF89A89987026CCA754</key>
 		<dict>
 			<key>baseConfigurationReference</key>
 			<string>4E762F23EC34ED4A6FF3312D84E33A40</string>
@@ -482,37 +525,70 @@
 			<key>name</key>
 			<string>Debug</string>
 		</dict>
-		<key>3D7EC3E7F6336B555B785B4DBB24633D</key>
+		<key>2F373F4146EC113042C494CAD608FC55</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>454BE389E9740FE22E27E2B90EA26798</string>
+			</array>
+			<key>isa</key>
+			<string>PBXSourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>30BB60568CC2AD355945E1FB8CEE7AE9</key>
 		<dict>
 			<key>fileRef</key>
-			<string>F86680631FBDEBA015EE620DE52FDC25</string>
+			<string>AA2A4DE27D6679D0AC20AF41DAFD71B6</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-DOS_OBJECT_USE_OBJC=0</string>
-			</dict>
 		</dict>
-		<key>3F6EDD823D8C41C444726D90EC89AD6C</key>
+		<key>348C228781253FBA10267684C98300A1</key>
 		<dict>
-			<key>explicitFileType</key>
-			<string>archive.ar</string>
-			<key>includeInIndex</key>
+			<key>buildConfigurations</key>
+			<array>
+				<string>2DFEF794AAEB3FF89A89987026CCA754</string>
+				<string>8FBD218209ECE67C0EFC98B5F7E4D2B7</string>
+			</array>
+			<key>defaultConfigurationIsVisible</key>
 			<string>0</string>
+			<key>defaultConfigurationName</key>
+			<string>Release</string>
+			<key>isa</key>
+			<string>XCConfigurationList</string>
+		</dict>
+		<key>37DB56D75062CC75FCB0966E1C6E8A8E</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>libFontAwesomeIconFactory.a</string>
+			<key>lastKnownFileType</key>
+			<string>text</string>
 			<key>path</key>
-			<string>libFontAwesomeIconFactory.a</string>
+			<string>Pods-acknowledgements.markdown</string>
 			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
+			<string>&lt;group&gt;</string>
 		</dict>
-		<key>3F779FDA68C484ABC2AD01967B96B6F3</key>
+		<key>388EA7144212004DA91055854E7A23DA</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>464FB797EDE493E29793157CC91B993F</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Resources</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>3A88C10239EA27D4327988501327C22C</key>
 		<dict>
 			<key>fileRef</key>
-			<string>7CA92E537DF796F26A9E0CD38AF8622D</string>
+			<string>CB586FEE2A46BB66C04890CA7393AD67</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -523,18 +599,141 @@
 				</array>
 			</dict>
 		</dict>
-		<key>44823190AF7093B8754DBAE026A6CF5C</key>
+		<key>3CCB51F0EB2F2580136FC93EA83A323D</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>NIKFontAwesomeTabBarItem.m</string>
+			<key>path</key>
+			<string>FontAwesomeIconFactory/iOS/NIKFontAwesomeTabBarItem.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>3D7EC3E7F6336B555B785B4DBB24633D</key>
+		<dict>
+			<key>fileRef</key>
+			<string>B9CD921EFC8086D9C71B95E0B9D5AC4B</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>COMPILER_FLAGS</key>
+				<string>-DOS_OBJECT_USE_OBJC=0</string>
+			</dict>
+		</dict>
+		<key>3DDD03FFF5F80D6F84E8E1048450ABE0</key>
+		<dict>
+			<key>buildConfigurationList</key>
+			<string>348C228781253FBA10267684C98300A1</string>
+			<key>buildPhases</key>
+			<array>
+				<string>2F373F4146EC113042C494CAD608FC55</string>
+				<string>E5F9B11D64718CB4A26F44A42874CCA7</string>
+			</array>
+			<key>buildRules</key>
+			<array/>
+			<key>dependencies</key>
+			<array>
+				<string>2AE1D7052C6F3561F3B0BE0A1152919E</string>
+				<string>57B2DEC6DCB3C38A958A7A29BB26720E</string>
+				<string>BDE7B4A453CD6EB6D0CAB808D32D4DA6</string>
+			</array>
+			<key>isa</key>
+			<string>PBXNativeTarget</string>
+			<key>name</key>
+			<string>Pods</string>
+			<key>productName</key>
+			<string>Pods</string>
+			<key>productReference</key>
+			<string>E2C565C6D5D189C0F406F0C8E9DE55FF</string>
+			<key>productType</key>
+			<string>com.apple.product-type.library.static</string>
+		</dict>
+		<key>3E08FF4872D3C347C2398BF3946E34DC</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>NIKFontAwesomeIconFactory+iOS.h</string>
+			<key>path</key>
+			<string>FontAwesomeIconFactory/NIKFontAwesomeIconFactory+iOS.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>3EAE7AA2AD1F9497686CBEA977B0697E</key>
+		<dict>
+			<key>fileRef</key>
+			<string>AA2A4DE27D6679D0AC20AF41DAFD71B6</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>3F779FDA68C484ABC2AD01967B96B6F3</key>
+		<dict>
+			<key>fileRef</key>
+			<string>CCC28048C839452C1F134E720FD3FE2B</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>454BE389E9740FE22E27E2B90EA26798</key>
+		<dict>
+			<key>fileRef</key>
+			<string>272643F56613CA0D336AE3DBF19DC404</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>464FB797EDE493E29793157CC91B993F</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>name</key>
-			<string>FontAwesome.ttf</string>
+			<string>FontAwesome.otf</string>
 			<key>path</key>
-			<string>Resources/FontAwesome.ttf</string>
+			<string>Font-Awesome/fonts/FontAwesome.otf</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
+		</dict>
+		<key>4B5BA948C4B495A379E40187C40EF01E</key>
+		<dict>
+			<key>buildConfigurationList</key>
+			<string>6743118B252B4D1E4CE790F42C186BB1</string>
+			<key>buildPhases</key>
+			<array>
+				<string>8EDD767C348250E1FED29E78F100D615</string>
+				<string>8594299A99EF12C06CB3709E0E800918</string>
+				<string>177968BA4E52B2100A63BCC62D5DBAA5</string>
+			</array>
+			<key>buildRules</key>
+			<array/>
+			<key>dependencies</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXNativeTarget</string>
+			<key>name</key>
+			<string>VCMaterialDesignIcons</string>
+			<key>productName</key>
+			<string>VCMaterialDesignIcons</string>
+			<key>productReference</key>
+			<string>9FB27D462AE6E1D7CA332990955B23BF</string>
+			<key>productType</key>
+			<string>com.apple.product-type.library.static</string>
 		</dict>
 		<key>4E762F23EC34ED4A6FF3312D84E33A40</key>
 		<dict>
@@ -570,21 +769,34 @@
 			<key>productName</key>
 			<string>FontAwesome</string>
 			<key>productReference</key>
-			<string>8946FFF1715C51A2B83AEC288684E7D2</string>
+			<string>020CE11BB4EFAE0C820AEC3477554FC9</string>
 			<key>productType</key>
 			<string>com.apple.product-type.library.static</string>
 		</dict>
 		<key>5062C714F32201DC497D4850C590FAF1</key>
 		<dict>
 			<key>fileRef</key>
-			<string>C78D6601B5199195839BAC7E15DEB3CA</string>
+			<string>9684DF48CA8E22294B983F2E820906D8</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
+		</dict>
+		<key>50A43C56FEADE28F9152D89E6722D767</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>FontAwesome-prefix.pch</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
 		</dict>
 		<key>54366F1705DC00755B7D24E443484F63</key>
 		<dict>
 			<key>fileRef</key>
-			<string>2F495C57943647F168BDEC65F20E805B</string>
+			<string>3CCB51F0EB2F2580136FC93EA83A323D</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -593,7 +805,62 @@
 				<string>-DOS_OBJECT_USE_OBJC=0</string>
 			</dict>
 		</dict>
-		<key>575E70A3EBF309803C566ACC631ADD8D</key>
+		<key>54BCFCD90CB91645D3520401F2585B54</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>FAImageView.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>55AA6F3ADC51222587847C98FD26244B</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>FontAwesome-dummy.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>5609BB8323893A5133C59A802EE850D7</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>1ABF84B159F1A26EB1FFCB49FFB78436</string>
+				<string>1F84042CC729059252C3B5BA146553FE</string>
+				<string>B0B3108E74560126E8711D129F127828</string>
+				<string>7FF562B73F851FB287CE66CF4A905870</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>VCMaterialDesignIcons</string>
+			<key>path</key>
+			<string>VCMaterialDesignIcons</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>57B2DEC6DCB3C38A958A7A29BB26720E</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXTargetDependency</string>
+			<key>name</key>
+			<string>FontAwesomeIconFactory</string>
+			<key>target</key>
+			<string>ED4AECDBFBFFC4466DF47CBF08CC4ACA</string>
+			<key>targetProxy</key>
+			<string>111C5C6746DEE0355C54947B37339B80</string>
+		</dict>
+		<key>57B44FB00F87B31B49D4419D9041AB1E</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -602,9 +869,9 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.h</string>
 			<key>name</key>
-			<string>NIKFontAwesomeButton.h</string>
+			<string>NIKFontAwesomeIconTypes.h</string>
 			<key>path</key>
-			<string>FontAwesomeIconFactory/iOS/NIKFontAwesomeButton.h</string>
+			<string>FontAwesomeIconFactory/NIKFontAwesomeIconTypes.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
@@ -632,36 +899,10 @@
 			<key>runOnlyForDeploymentPostprocessing</key>
 			<string>0</string>
 		</dict>
-		<key>5C8C373E2CDCED45501FBA8725971567</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>UIFont+FontAwesome.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>5EF88D842B34990AAD9799523CF5988F</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>FAImageView.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
 		<key>608214ACF84E5388C4C92E5E2BE3C0F8</key>
 		<dict>
 			<key>fileRef</key>
-			<string>E9F2EA938D27DB1659F5B8810F6E3CD2</string>
+			<string>3E08FF4872D3C347C2398BF3946E34DC</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -672,25 +913,35 @@
 				</array>
 			</dict>
 		</dict>
-		<key>680FBD0FF32D878B49388595ED12DDBD</key>
+		<key>669BB472E2641510852133F540928D56</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>NIKFontAwesomeIconFactory+OSX.h</string>
 			<key>path</key>
-			<string>FontAwesomeIconFactory/NIKFontAwesomeIconFactory+OSX.h</string>
+			<string>Material-Design-Iconic-Font.ttf</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
+		</dict>
+		<key>6743118B252B4D1E4CE790F42C186BB1</key>
+		<dict>
+			<key>buildConfigurations</key>
+			<array>
+				<string>A8F344D0B2B78954E6DC9A5F4FDDDBD0</string>
+				<string>DFC557678F7255B47E20708DDDD9046D</string>
+			</array>
+			<key>defaultConfigurationIsVisible</key>
+			<string>0</string>
+			<key>defaultConfigurationName</key>
+			<string>Release</string>
+			<key>isa</key>
+			<string>XCConfigurationList</string>
 		</dict>
 		<key>68CCB5153AB313A395DDDADFDE887A07</key>
 		<dict>
 			<key>baseConfigurationReference</key>
-			<string>76931E01254558284C7B24393EDFFDDD</string>
+			<string>2B06A1F84A1E82D0EB9420739CB436AE</string>
 			<key>buildSettings</key>
 			<dict>
 				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
@@ -737,7 +988,7 @@
 		<key>6B8B4FFB5ED7FAEDBB612247E7B1919E</key>
 		<dict>
 			<key>fileRef</key>
-			<string>680FBD0FF32D878B49388595ED12DDBD</string>
+			<string>E0AE3B759D2BCEC4FBB0237B948490F1</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -747,17 +998,6 @@
 					<string>Public</string>
 				</array>
 			</dict>
-		</dict>
-		<key>6EB5A60973D9283DE79582F1E18B0691</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXTargetDependency</string>
-			<key>name</key>
-			<string>FontAwesome</string>
-			<key>target</key>
-			<string>4F12BBFCA7BEB12EE3268EA5AA1FC3D7</string>
-			<key>targetProxy</key>
-			<string>CD110D70C440E96F5231C62B57B8AB90</string>
 		</dict>
 		<key>6F62015C28C3D4C811BC185D93C853CF</key>
 		<dict>
@@ -774,23 +1014,10 @@
 			<key>runOnlyForDeploymentPostprocessing</key>
 			<string>0</string>
 		</dict>
-		<key>708981D6123FD479830D5539ABCDE125</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>3A8CB35B7B4CF1666BE71D22F9F28E41</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Resources</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
 		<key>7152A770FC6B31F93EDAEB12BA115B84</key>
 		<dict>
 			<key>fileRef</key>
-			<string>8DF6761523F26F34D8354D25DAE6AAD6</string>
+			<string>B794B087C133476D0449AABEAC206EB3</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -802,7 +1029,7 @@
 		<key>72FD2415D9E69844FC249EDF8105C0B2</key>
 		<dict>
 			<key>fileRef</key>
-			<string>5EF88D842B34990AAD9799523CF5988F</string>
+			<string>AD28CD6DD7AC6B4A0403D52B959DD1EB</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -813,7 +1040,7 @@
 				</array>
 			</dict>
 		</dict>
-		<key>7348FD7669862FE01367C502B5EF3498</key>
+		<key>7639017873732C04478B20BF68C7F099</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -822,26 +1049,33 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.h</string>
 			<key>name</key>
-			<string>FontAwesomeIconFactory.h</string>
+			<string>NIKFontAwesomePathFactory.h</string>
 			<key>path</key>
-			<string>FontAwesomeIconFactory/FontAwesomeIconFactory.h</string>
+			<string>FontAwesomeIconFactory/NIKFontAwesomePathFactory.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>76931E01254558284C7B24393EDFFDDD</key>
+		<key>767D63D00807A123CB9D2DB197290093</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
+			<string>sourcecode.c.h</string>
 			<key>path</key>
-			<string>FontAwesomeIconFactory.xcconfig</string>
+			<string>FontAwesomeIconFactory-prefix.pch</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>77F078CD4FD1499BD3D64B4253BA54B7</key>
+		<key>76FA7EBE37645ED4F78129CA79DE3944</key>
+		<dict>
+			<key>fileRef</key>
+			<string>1F84042CC729059252C3B5BA146553FE</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>7C043BD608FB81B5503B4B286A699037</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -849,36 +1083,49 @@
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>NIKFontAwesomeButton.m</string>
 			<key>path</key>
-			<string>FontAwesomeIconFactory/iOS/NIKFontAwesomeButton.m</string>
+			<string>FontAwesomeIconFactory-dummy.m</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>7CA92E537DF796F26A9E0CD38AF8622D</key>
+		<key>7D0CA9D18631E9FFA90643A29C731164</key>
 		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
+			<key>children</key>
+			<array>
+				<string>B81BD95B237A4AFF15810681E28654D0</string>
+				<string>F915CA9EC1ADF561B362D998C012B1D7</string>
+				<string>21C36FD9C7EC40A2E28E0ED0CE7A8D16</string>
+				<string>AA2A4DE27D6679D0AC20AF41DAFD71B6</string>
+				<string>9684DF48CA8E22294B983F2E820906D8</string>
+			</array>
 			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
+			<string>PBXGroup</string>
 			<key>name</key>
-			<string>NIKFontAwesomeIconTraits.h</string>
-			<key>path</key>
-			<string>FontAwesomeIconFactory/NIKFontAwesomeIconTraits.h</string>
+			<string>iOS</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
+		</dict>
+		<key>7D8BB566EBD4DFF5B09CBAAA082FE284</key>
+		<dict>
+			<key>containerPortal</key>
+			<string>D41D8CD98F00B204E9800998ECF8427E</string>
+			<key>isa</key>
+			<string>PBXContainerItemProxy</string>
+			<key>proxyType</key>
+			<string>1</string>
+			<key>remoteGlobalIDString</key>
+			<string>4B5BA948C4B495A379E40187C40EF01E</string>
+			<key>remoteInfo</key>
+			<string>VCMaterialDesignIcons</string>
 		</dict>
 		<key>7DB346D0F39D3F0E887471402A8071AB</key>
 		<dict>
 			<key>children</key>
 			<array>
 				<string>BA6428E9F66FD5A23C0A2E06ED26CD2F</string>
-				<string>14B8B9B15ECBE87983FF987239AB2D7B</string>
-				<string>354E90CDDCF6347B287853F37534A361</string>
-				<string>CDD7DDAF68B2E39067813469E97DCF24</string>
+				<string>20B56609144CE204DFA8221F742B2D76</string>
+				<string>E17AA142082D4F264F7A50AE6D27497F</string>
+				<string>09B007EA21636CD438E4BF5CD444EC3C</string>
 				<string>037C0CA694176A3C0915F62C9D20B3E6</string>
 			</array>
 			<key>isa</key>
@@ -886,85 +1133,14 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>7E6A2339D39958A7258A1ADCD9992E2E</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>7348FD7669862FE01367C502B5EF3498</string>
-				<string>575E70A3EBF309803C566ACC631ADD8D</string>
-				<string>77F078CD4FD1499BD3D64B4253BA54B7</string>
-				<string>8E15FD9A4A0236194136C74C22C739C0</string>
-				<string>FF43D279ADF186D2FB5FF2F77B5B52D5</string>
-				<string>7EBA38C808673A2C9FC8DB988E15F9A8</string>
-				<string>E9F2EA938D27DB1659F5B8810F6E3CD2</string>
-				<string>680FBD0FF32D878B49388595ED12DDBD</string>
-				<string>7CA92E537DF796F26A9E0CD38AF8622D</string>
-				<string>C27CF58743C8EDCBC4D48EFB5C679532</string>
-				<string>FFDE9A1274187F9ACD6CBB160621D0B8</string>
-				<string>B730D05093458A3FE39BB183785BC15E</string>
-				<string>CC4B84E459E5A8DFCDC10A53A2CC54B2</string>
-				<string>F86680631FBDEBA015EE620DE52FDC25</string>
-				<string>084D8D0132A4765A74C28EE67DA8CA8E</string>
-				<string>8DF6761523F26F34D8354D25DAE6AAD6</string>
-				<string>CC2A27CE6B628052D5D344FA2A7B52AC</string>
-				<string>2F495C57943647F168BDEC65F20E805B</string>
-				<string>708981D6123FD479830D5539ABCDE125</string>
-				<string>A97B7B47AD1DE583181A298C9B21EBF4</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>FontAwesomeIconFactory</string>
-			<key>path</key>
-			<string>FontAwesomeIconFactory</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>7EBA38C808673A2C9FC8DB988E15F9A8</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>NIKFontAwesomeIconFactory.m</string>
-			<key>path</key>
-			<string>FontAwesomeIconFactory/NIKFontAwesomeIconFactory.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>830A1BD47FC453EF07A3717FB198B2B3</key>
+		<key>7E67CC912DF23C1EEE7C13A03FE3B1D4</key>
 		<dict>
 			<key>fileRef</key>
-			<string>77F078CD4FD1499BD3D64B4253BA54B7</string>
+			<string>21C36FD9C7EC40A2E28E0ED0CE7A8D16</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-DOS_OBJECT_USE_OBJC=0</string>
-			</dict>
 		</dict>
-		<key>869337FB19795B0F7A0DDED3C8DC7C73</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>88AC921CBE1FF8990D3E775E02AA9E69</string>
-				<string>EFEC3C66A759D149FE67CB455CE8C916</string>
-				<string>E2F2F62B7BC93B0C6E6659C035A0025C</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Support Files</string>
-			<key>path</key>
-			<string>../Target Support Files/FontAwesome</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>88AC921CBE1FF8990D3E775E02AA9E69</key>
+		<key>7F52A76A149B7D49513CD5FFD64CC0E8</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -973,11 +1149,28 @@
 			<key>lastKnownFileType</key>
 			<string>text.xcconfig</string>
 			<key>path</key>
-			<string>FontAwesome.xcconfig</string>
+			<string>VCMaterialDesignIcons.xcconfig</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>8946FFF1715C51A2B83AEC288684E7D2</key>
+		<key>7FF562B73F851FB287CE66CF4A905870</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>7F52A76A149B7D49513CD5FFD64CC0E8</string>
+				<string>95C38495011D133DB49B5131A6B2824D</string>
+				<string>A4D77FE2C1FB6EAA434D5BE234A2C956</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Support Files</string>
+			<key>path</key>
+			<string>../Target Support Files/VCMaterialDesignIcons</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>801D0526A864B9065878C8C62C17FD21</key>
 		<dict>
 			<key>explicitFileType</key>
 			<string>archive.ar</string>
@@ -986,11 +1179,58 @@
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>name</key>
-			<string>libFontAwesome.a</string>
+			<string>libFontAwesomeIconFactory.a</string>
 			<key>path</key>
-			<string>libFontAwesome.a</string>
+			<string>libFontAwesomeIconFactory.a</string>
 			<key>sourceTree</key>
 			<string>BUILT_PRODUCTS_DIR</string>
+		</dict>
+		<key>82AA0D794A01C791609E39E71BEDDB16</key>
+		<dict>
+			<key>fileRef</key>
+			<string>9684DF48CA8E22294B983F2E820906D8</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>830A1BD47FC453EF07A3717FB198B2B3</key>
+		<dict>
+			<key>fileRef</key>
+			<string>26BFE211096A5ACE274C3E05C843862C</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>COMPILER_FLAGS</key>
+				<string>-DOS_OBJECT_USE_OBJC=0</string>
+			</dict>
+		</dict>
+		<key>8594299A99EF12C06CB3709E0E800918</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>7E67CC912DF23C1EEE7C13A03FE3B1D4</string>
+				<string>3EAE7AA2AD1F9497686CBEA977B0697E</string>
+				<string>82AA0D794A01C791609E39E71BEDDB16</string>
+			</array>
+			<key>isa</key>
+			<string>PBXFrameworksBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>893687414ACB38E7F5DE5CCAEE5D5116</key>
+		<dict>
+			<key>containerPortal</key>
+			<string>D41D8CD98F00B204E9800998ECF8427E</string>
+			<key>isa</key>
+			<string>PBXContainerItemProxy</string>
+			<key>proxyType</key>
+			<string>1</string>
+			<key>remoteGlobalIDString</key>
+			<string>4F12BBFCA7BEB12EE3268EA5AA1FC3D7</string>
+			<key>remoteInfo</key>
+			<string>FontAwesome</string>
 		</dict>
 		<key>8A19C76CF0D56FDF5C9600793D8B4589</key>
 		<dict>
@@ -1010,7 +1250,7 @@
 		<key>8B1EFD215824D44A2423CA3C1382EDD4</key>
 		<dict>
 			<key>baseConfigurationReference</key>
-			<string>76931E01254558284C7B24393EDFFDDD</string>
+			<string>2B06A1F84A1E82D0EB9420739CB436AE</string>
 			<key>buildSettings</key>
 			<dict>
 				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
@@ -1041,22 +1281,7 @@
 			<key>name</key>
 			<string>Release</string>
 		</dict>
-		<key>8DF6761523F26F34D8354D25DAE6AAD6</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>NIKFontAwesomePathRenderer.m</string>
-			<key>path</key>
-			<string>FontAwesomeIconFactory/NIKFontAwesomePathRenderer.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>8E15FD9A4A0236194136C74C22C739C0</key>
+		<key>8C55A6156AA30DD771D7FE2952646884</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -1065,26 +1290,27 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.h</string>
 			<key>name</key>
-			<string>NIKFontAwesomeIcon.h</string>
+			<string>NIKFontAwesomeImageView.h</string>
 			<key>path</key>
-			<string>FontAwesomeIconFactory/NIKFontAwesomeIcon.h</string>
+			<string>FontAwesomeIconFactory/iOS/NIKFontAwesomeImageView.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>9271DD1A6807BD2825C3C8859486DA8F</key>
+		<key>8EDD767C348250E1FED29E78F100D615</key>
 		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>D0D9D64ED2C7BC9B5AA28C04F76A9FB8</string>
+				<string>76FA7EBE37645ED4F78129CA79DE3944</string>
+			</array>
 			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>NSString+FontAwesome.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
+			<string>PBXSourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
 		</dict>
-		<key>98C98CDFB3F20F2925F6CD1F141BB14F</key>
+		<key>8F7F9AE31F5B2E7AE494EA1FB31B1097</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -1093,98 +1319,11 @@
 			<key>lastKnownFileType</key>
 			<string>text.xcconfig</string>
 			<key>path</key>
-			<string>Pods.release.xcconfig</string>
+			<string>FontAwesome.xcconfig</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>99B09D3C290DADFB5952F74C0013E89C</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>CoreGraphics.framework</string>
-			<key>path</key>
-			<string>Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/CoreGraphics.framework</string>
-			<key>sourceTree</key>
-			<string>DEVELOPER_DIR</string>
-		</dict>
-		<key>9ABBE4B6BDAC0E8A39FABB03903EEB31</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>FontAwesomeIconFactory-dummy.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>9C01877A0D4D0FC7D64E410E007B8676</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>UIFont+FontAwesome.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>9DE41E2419CFE3EAEA415170F8498D70</key>
-		<dict>
-			<key>fileRef</key>
-			<string>CC4B84E459E5A8DFCDC10A53A2CC54B2</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>A0F61179FE87D362A36A57C9DDD49ECA</key>
-		<dict>
-			<key>fileRef</key>
-			<string>5C8C373E2CDCED45501FBA8725971567</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>A1A36D34413696BE466E2CA0AFF194DA</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.script.sh</string>
-			<key>path</key>
-			<string>Pods-resources.sh</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>A1BB775451B8AB602577E831B0173C99</key>
-		<dict>
-			<key>fileRef</key>
-			<string>FFDE9A1274187F9ACD6CBB160621D0B8</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>A2653F85FB008C595ECA41654A7C2327</key>
+		<key>8FBD218209ECE67C0EFC98B5F7E4D2B7</key>
 		<dict>
 			<key>baseConfigurationReference</key>
 			<string>98C98CDFB3F20F2925F6CD1F141BB14F</string>
@@ -1216,10 +1355,187 @@
 			<key>name</key>
 			<string>Release</string>
 		</dict>
+		<key>910B25F4E3B06577232B408FF6185380</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>NIKFontAwesomeIcon.h</string>
+			<key>path</key>
+			<string>FontAwesomeIconFactory/NIKFontAwesomeIcon.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>93C80E9344F5CBA2DADEC06D0BBAC5A7</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>NIKFontAwesomeTabBarItem.h</string>
+			<key>path</key>
+			<string>FontAwesomeIconFactory/iOS/NIKFontAwesomeTabBarItem.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>95C38495011D133DB49B5131A6B2824D</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>VCMaterialDesignIcons-dummy.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>9684DF48CA8E22294B983F2E820906D8</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>wrapper.framework</string>
+			<key>name</key>
+			<string>UIKit.framework</string>
+			<key>path</key>
+			<string>Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/UIKit.framework</string>
+			<key>sourceTree</key>
+			<string>DEVELOPER_DIR</string>
+		</dict>
+		<key>975DB10250A647978208AA9BE8326EE7</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>FontAwesomeIconFactory.h</string>
+			<key>path</key>
+			<string>FontAwesomeIconFactory/FontAwesomeIconFactory.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>98C98CDFB3F20F2925F6CD1F141BB14F</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.xcconfig</string>
+			<key>path</key>
+			<string>Pods.release.xcconfig</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>9DE41E2419CFE3EAEA415170F8498D70</key>
+		<dict>
+			<key>fileRef</key>
+			<string>7639017873732C04478B20BF68C7F099</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>9FB27D462AE6E1D7CA332990955B23BF</key>
+		<dict>
+			<key>explicitFileType</key>
+			<string>archive.ar</string>
+			<key>includeInIndex</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>name</key>
+			<string>libVCMaterialDesignIcons.a</string>
+			<key>path</key>
+			<string>libVCMaterialDesignIcons.a</string>
+			<key>sourceTree</key>
+			<string>BUILT_PRODUCTS_DIR</string>
+		</dict>
+		<key>A0F61179FE87D362A36A57C9DDD49ECA</key>
+		<dict>
+			<key>fileRef</key>
+			<string>14353668E8B028CB09469D5B897E6C1A</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>A1A36D34413696BE466E2CA0AFF194DA</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.script.sh</string>
+			<key>path</key>
+			<string>Pods-resources.sh</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>A1BB775451B8AB602577E831B0173C99</key>
+		<dict>
+			<key>fileRef</key>
+			<string>8C55A6156AA30DD771D7FE2952646884</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>A278DC9A1D14DA6C7FC16EF464E3591A</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>8F7F9AE31F5B2E7AE494EA1FB31B1097</string>
+				<string>55AA6F3ADC51222587847C98FD26244B</string>
+				<string>50A43C56FEADE28F9152D89E6722D767</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Support Files</string>
+			<key>path</key>
+			<string>../Target Support Files/FontAwesome</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>A4D77FE2C1FB6EAA434D5BE234A2C956</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>VCMaterialDesignIcons-prefix.pch</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
 		<key>A76E4957A4049C7BA2D0AA0951093C8F</key>
 		<dict>
 			<key>fileRef</key>
-			<string>7EBA38C808673A2C9FC8DB988E15F9A8</string>
+			<string>06F4D5940661B6FBEF1F97F41C1D1733</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -1228,27 +1544,57 @@
 				<string>-DOS_OBJECT_USE_OBJC=0</string>
 			</dict>
 		</dict>
-		<key>A97B7B47AD1DE583181A298C9B21EBF4</key>
+		<key>A8F344D0B2B78954E6DC9A5F4FDDDBD0</key>
 		<dict>
-			<key>children</key>
-			<array>
-				<string>76931E01254558284C7B24393EDFFDDD</string>
-				<string>9ABBE4B6BDAC0E8A39FABB03903EEB31</string>
-				<string>BAC5C318E032B307EF91AACEB30D6614</string>
-			</array>
+			<key>baseConfigurationReference</key>
+			<string>7F52A76A149B7D49513CD5FFD64CC0E8</string>
+			<key>buildSettings</key>
+			<dict>
+				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
+				<string>YES</string>
+				<key>GCC_PREFIX_HEADER</key>
+				<string>Target Support Files/VCMaterialDesignIcons/VCMaterialDesignIcons-prefix.pch</string>
+				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+				<string>7.0</string>
+				<key>MTL_ENABLE_DEBUG_INFO</key>
+				<string>YES</string>
+				<key>OTHER_LDFLAGS</key>
+				<string></string>
+				<key>OTHER_LIBTOOLFLAGS</key>
+				<string></string>
+				<key>PRIVATE_HEADERS_FOLDER_PATH</key>
+				<string></string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
+				<string></string>
+				<key>SDKROOT</key>
+				<string>iphoneos</string>
+				<key>SKIP_INSTALL</key>
+				<string>YES</string>
+			</dict>
 			<key>isa</key>
-			<string>PBXGroup</string>
+			<string>XCBuildConfiguration</string>
 			<key>name</key>
-			<string>Support Files</string>
+			<string>Debug</string>
+		</dict>
+		<key>AA2A4DE27D6679D0AC20AF41DAFD71B6</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>wrapper.framework</string>
+			<key>name</key>
+			<string>Foundation.framework</string>
 			<key>path</key>
-			<string>../Target Support Files/FontAwesomeIconFactory</string>
+			<string>Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework</string>
 			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
+			<string>DEVELOPER_DIR</string>
 		</dict>
 		<key>AAFD209D557B36ED6B68F3C56106A8A4</key>
 		<dict>
 			<key>fileRef</key>
-			<string>9271DD1A6807BD2825C3C8859486DA8F</string>
+			<string>0A9CB0D5FA308813A64A8F97A83E4101</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
@@ -1267,36 +1613,36 @@
 			<key>runOnlyForDeploymentPostprocessing</key>
 			<string>0</string>
 		</dict>
-		<key>AE1324A6CBA3659B74021E335D9936CE</key>
-		<dict>
-			<key>containerPortal</key>
-			<string>D41D8CD98F00B204E9800998ECF8427E</string>
-			<key>isa</key>
-			<string>PBXContainerItemProxy</string>
-			<key>proxyType</key>
-			<string>1</string>
-			<key>remoteGlobalIDString</key>
-			<string>ED4AECDBFBFFC4466DF47CBF08CC4ACA</string>
-			<key>remoteInfo</key>
-			<string>FontAwesomeIconFactory</string>
-		</dict>
-		<key>AFAB17CB0ECD2AD8FDE88765F7C52F41</key>
+		<key>AD28CD6DD7AC6B4A0403D52B959DD1EB</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
+			<string>sourcecode.c.h</string>
 			<key>path</key>
-			<string>FAImageView.m</string>
+			<string>FAImageView.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>B0B3108E74560126E8711D129F127828</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>669BB472E2641510852133F540928D56</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Resources</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
 		<key>B36DCD69E7F87484B423A888F3FD243D</key>
 		<dict>
 			<key>fileRef</key>
-			<string>C27CF58743C8EDCBC4D48EFB5C679532</string>
+			<string>57B44FB00F87B31B49D4419D9041AB1E</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -1401,14 +1747,7 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>B623F690F9BDC8D10EE1242433FC7902</key>
-		<dict>
-			<key>fileRef</key>
-			<string>272643F56613CA0D336AE3DBF19DC404</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>B730D05093458A3FE39BB183785BC15E</key>
+		<key>B794B087C133476D0449AABEAC206EB3</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -1417,9 +1756,37 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.objc</string>
 			<key>name</key>
-			<string>NIKFontAwesomeImageView.m</string>
+			<string>NIKFontAwesomePathRenderer.m</string>
 			<key>path</key>
-			<string>FontAwesomeIconFactory/iOS/NIKFontAwesomeImageView.m</string>
+			<string>FontAwesomeIconFactory/NIKFontAwesomePathRenderer.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>B81BD95B237A4AFF15810681E28654D0</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>wrapper.framework</string>
+			<key>name</key>
+			<string>CoreGraphics.framework</string>
+			<key>path</key>
+			<string>Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/CoreGraphics.framework</string>
+			<key>sourceTree</key>
+			<string>DEVELOPER_DIR</string>
+		</dict>
+		<key>B9CD921EFC8086D9C71B95E0B9D5AC4B</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>NIKFontAwesomePathFactory.m</string>
+			<key>path</key>
+			<string>FontAwesomeIconFactory/NIKFontAwesomePathFactory.m</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
@@ -1440,23 +1807,10 @@
 			<key>xcLanguageSpecificationIdentifier</key>
 			<string>xcode.lang.ruby</string>
 		</dict>
-		<key>BAC5C318E032B307EF91AACEB30D6614</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>FontAwesomeIconFactory-prefix.pch</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
 		<key>BC29BE811679743076D655163AD0F498</key>
 		<dict>
 			<key>fileRef</key>
-			<string>9C01877A0D4D0FC7D64E410E007B8676</string>
+			<string>CC3C5178E773A6DCF233537EE1A6E316</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -1467,32 +1821,21 @@
 				</array>
 			</dict>
 		</dict>
-		<key>BCDA3F8942D4CCC6C64C1DC2E278C94F</key>
+		<key>BDE7B4A453CD6EB6D0CAB808D32D4DA6</key>
 		<dict>
-			<key>children</key>
-			<array>
-				<string>5EF88D842B34990AAD9799523CF5988F</string>
-				<string>AFAB17CB0ECD2AD8FDE88765F7C52F41</string>
-				<string>E929B25CDB9D84B81DA6234038F67204</string>
-				<string>9271DD1A6807BD2825C3C8859486DA8F</string>
-				<string>9C01877A0D4D0FC7D64E410E007B8676</string>
-				<string>5C8C373E2CDCED45501FBA8725971567</string>
-				<string>390004970A753B5941C1825F1C6F58BF</string>
-				<string>869337FB19795B0F7A0DDED3C8DC7C73</string>
-			</array>
 			<key>isa</key>
-			<string>PBXGroup</string>
+			<string>PBXTargetDependency</string>
 			<key>name</key>
-			<string>FontAwesome</string>
-			<key>path</key>
-			<string>FontAwesome</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
+			<string>VCMaterialDesignIcons</string>
+			<key>target</key>
+			<string>4B5BA948C4B495A379E40187C40EF01E</string>
+			<key>targetProxy</key>
+			<string>7D8BB566EBD4DFF5B09CBAAA082FE284</string>
 		</dict>
 		<key>BE10B7091B2E77210186528372E2C335</key>
 		<dict>
 			<key>baseConfigurationReference</key>
-			<string>88AC921CBE1FF8990D3E775E02AA9E69</string>
+			<string>8F7F9AE31F5B2E7AE494EA1FB31B1097</string>
 			<key>buildSettings</key>
 			<dict>
 				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
@@ -1523,20 +1866,36 @@
 			<key>name</key>
 			<string>Release</string>
 		</dict>
-		<key>BF2B0D1B8A34FC930CA0E93BBD07C8B8</key>
+		<key>C491E79FBE43A436E18D7A8C20789376</key>
 		<dict>
+			<key>children</key>
+			<array>
+				<string>AD28CD6DD7AC6B4A0403D52B959DD1EB</string>
+				<string>54BCFCD90CB91645D3520401F2585B54</string>
+				<string>CB586FEE2A46BB66C04890CA7393AD67</string>
+				<string>0A9CB0D5FA308813A64A8F97A83E4101</string>
+				<string>CC3C5178E773A6DCF233537EE1A6E316</string>
+				<string>14353668E8B028CB09469D5B897E6C1A</string>
+				<string>0F3F807E856CF5DAA2A3C2EC9E533664</string>
+				<string>A278DC9A1D14DA6C7FC16EF464E3591A</string>
+			</array>
 			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
+			<string>PBXGroup</string>
 			<key>name</key>
-			<string>Foundation.framework</string>
+			<string>FontAwesome</string>
 			<key>path</key>
-			<string>Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework</string>
+			<string>FontAwesome</string>
 			<key>sourceTree</key>
-			<string>DEVELOPER_DIR</string>
+			<string>&lt;group&gt;</string>
 		</dict>
-		<key>C27CF58743C8EDCBC4D48EFB5C679532</key>
+		<key>C8F3B83F1F3E56AAE24F4D0D1D6F1E22</key>
+		<dict>
+			<key>fileRef</key>
+			<string>AA2A4DE27D6679D0AC20AF41DAFD71B6</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>CB586FEE2A46BB66C04890CA7393AD67</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -1544,52 +1903,15 @@
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>NIKFontAwesomeIconTypes.h</string>
 			<key>path</key>
-			<string>FontAwesomeIconFactory/NIKFontAwesomeIconTypes.h</string>
+			<string>NSString+FontAwesome.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
-		</dict>
-		<key>C78D6601B5199195839BAC7E15DEB3CA</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>UIKit.framework</string>
-			<key>path</key>
-			<string>Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/UIKit.framework</string>
-			<key>sourceTree</key>
-			<string>DEVELOPER_DIR</string>
-		</dict>
-		<key>C8F3B83F1F3E56AAE24F4D0D1D6F1E22</key>
-		<dict>
-			<key>fileRef</key>
-			<string>BF2B0D1B8A34FC930CA0E93BBD07C8B8</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>CB46F17046EFA2CDEE7619ECEBA81DB8</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>archive.ar</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>libPods.a</string>
-			<key>path</key>
-			<string>libPods.a</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
 		</dict>
 		<key>CB696142320B10990415805CA6D334D0</key>
 		<dict>
 			<key>fileRef</key>
-			<string>575E70A3EBF309803C566ACC631ADD8D</string>
+			<string>D76F9F9BF6430B1242D6A8C6ED9325BF</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -1600,7 +1922,20 @@
 				</array>
 			</dict>
 		</dict>
-		<key>CC2A27CE6B628052D5D344FA2A7B52AC</key>
+		<key>CC3C5178E773A6DCF233537EE1A6E316</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>UIFont+FontAwesome.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>CCC28048C839452C1F134E720FD3FE2B</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -1609,54 +1944,18 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.h</string>
 			<key>name</key>
-			<string>NIKFontAwesomeTabBarItem.h</string>
+			<string>NIKFontAwesomeIconTraits.h</string>
 			<key>path</key>
-			<string>FontAwesomeIconFactory/iOS/NIKFontAwesomeTabBarItem.h</string>
+			<string>FontAwesomeIconFactory/NIKFontAwesomeIconTraits.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>CC4B84E459E5A8DFCDC10A53A2CC54B2</key>
+		<key>D0D9D64ED2C7BC9B5AA28C04F76A9FB8</key>
 		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
+			<key>fileRef</key>
+			<string>95C38495011D133DB49B5131A6B2824D</string>
 			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>NIKFontAwesomePathFactory.h</string>
-			<key>path</key>
-			<string>FontAwesomeIconFactory/NIKFontAwesomePathFactory.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>CD110D70C440E96F5231C62B57B8AB90</key>
-		<dict>
-			<key>containerPortal</key>
-			<string>D41D8CD98F00B204E9800998ECF8427E</string>
-			<key>isa</key>
-			<string>PBXContainerItemProxy</string>
-			<key>proxyType</key>
-			<string>1</string>
-			<key>remoteGlobalIDString</key>
-			<string>4F12BBFCA7BEB12EE3268EA5AA1FC3D7</string>
-			<key>remoteInfo</key>
-			<string>FontAwesome</string>
-		</dict>
-		<key>CDD7DDAF68B2E39067813469E97DCF24</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>8946FFF1715C51A2B83AEC288684E7D2</string>
-				<string>3F6EDD823D8C41C444726D90EC89AD6C</string>
-				<string>CB46F17046EFA2CDEE7619ECEBA81DB8</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Products</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
+			<string>PBXBuildFile</string>
 		</dict>
 		<key>D41D8CD98F00B204E9800998ECF8427E</key>
 		<dict>
@@ -1684,7 +1983,7 @@
 			<key>mainGroup</key>
 			<string>7DB346D0F39D3F0E887471402A8071AB</string>
 			<key>productRefGroup</key>
-			<string>CDD7DDAF68B2E39067813469E97DCF24</string>
+			<string>09B007EA21636CD438E4BF5CD444EC3C</string>
 			<key>projectDirPath</key>
 			<string></string>
 			<key>projectReferences</key>
@@ -1695,26 +1994,29 @@
 			<array>
 				<string>4F12BBFCA7BEB12EE3268EA5AA1FC3D7</string>
 				<string>ED4AECDBFBFFC4466DF47CBF08CC4ACA</string>
-				<string>1ED8CA9ACD0CE23409B52EF73E4B5FC5</string>
+				<string>3DDD03FFF5F80D6F84E8E1048450ABE0</string>
+				<string>4B5BA948C4B495A379E40187C40EF01E</string>
 			</array>
 		</dict>
-		<key>D52C2E7D652C623B65E6FE33C6EDE5C1</key>
+		<key>D76F9F9BF6430B1242D6A8C6ED9325BF</key>
 		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>13E81A809DD9408E68673B37665DED4C</string>
-			</array>
+			<key>includeInIndex</key>
+			<string>1</string>
 			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>NIKFontAwesomeButton.h</string>
+			<key>path</key>
+			<string>FontAwesomeIconFactory/iOS/NIKFontAwesomeButton.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
 		</dict>
 		<key>D87114C766508DB3B963059C675BCEE9</key>
 		<dict>
 			<key>fileRef</key>
-			<string>CC2A27CE6B628052D5D344FA2A7B52AC</string>
+			<string>93C80E9344F5CBA2DADEC06D0BBAC5A7</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -1725,10 +2027,25 @@
 				</array>
 			</dict>
 		</dict>
+		<key>D96AA6C45532FA807F04A451C9B96441</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>NIKFontAwesomeImageView.m</string>
+			<key>path</key>
+			<string>FontAwesomeIconFactory/iOS/NIKFontAwesomeImageView.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
 		<key>DAED6554A9F15BFD63DE67440B0892B0</key>
 		<dict>
 			<key>fileRef</key>
-			<string>EA3ECF9C15C1A2957D150DF5904F3EBA</string>
+			<string>F915CA9EC1ADF561B362D998C012B1D7</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
@@ -1748,10 +2065,74 @@
 			<key>runOnlyForDeploymentPostprocessing</key>
 			<string>0</string>
 		</dict>
+		<key>DFC557678F7255B47E20708DDDD9046D</key>
+		<dict>
+			<key>baseConfigurationReference</key>
+			<string>7F52A76A149B7D49513CD5FFD64CC0E8</string>
+			<key>buildSettings</key>
+			<dict>
+				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
+				<string>YES</string>
+				<key>GCC_PREFIX_HEADER</key>
+				<string>Target Support Files/VCMaterialDesignIcons/VCMaterialDesignIcons-prefix.pch</string>
+				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+				<string>7.0</string>
+				<key>MTL_ENABLE_DEBUG_INFO</key>
+				<string>NO</string>
+				<key>OTHER_LDFLAGS</key>
+				<string></string>
+				<key>OTHER_LIBTOOLFLAGS</key>
+				<string></string>
+				<key>PRIVATE_HEADERS_FOLDER_PATH</key>
+				<string></string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
+				<string></string>
+				<key>SDKROOT</key>
+				<string>iphoneos</string>
+				<key>SKIP_INSTALL</key>
+				<string>YES</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Release</string>
+		</dict>
+		<key>E0AE3B759D2BCEC4FBB0237B948490F1</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>NIKFontAwesomeIconFactory+OSX.h</string>
+			<key>path</key>
+			<string>FontAwesomeIconFactory/NIKFontAwesomeIconFactory+OSX.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>E17AA142082D4F264F7A50AE6D27497F</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>C491E79FBE43A436E18D7A8C20789376</string>
+				<string>FBBD9A96B228A65362625FD5CADEA6F9</string>
+				<string>5609BB8323893A5133C59A802EE850D7</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Pods</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
 		<key>E1965CF66F0A33431DA09A48C9880F81</key>
 		<dict>
 			<key>fileRef</key>
-			<string>8E15FD9A4A0236194136C74C22C739C0</string>
+			<string>910B25F4E3B06577232B408FF6185380</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -1762,7 +2143,22 @@
 				</array>
 			</dict>
 		</dict>
-		<key>E2F2F62B7BC93B0C6E6659C035A0025C</key>
+		<key>E2C565C6D5D189C0F406F0C8E9DE55FF</key>
+		<dict>
+			<key>explicitFileType</key>
+			<string>archive.ar</string>
+			<key>includeInIndex</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>name</key>
+			<string>libPods.a</string>
+			<key>path</key>
+			<string>libPods.a</string>
+			<key>sourceTree</key>
+			<string>BUILT_PRODUCTS_DIR</string>
+		</dict>
+		<key>E4D989C2604A158E9B6BA377DE372E8B</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -1770,58 +2166,32 @@
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>NIKFontAwesomePathRenderer.h</string>
 			<key>path</key>
-			<string>FontAwesome-prefix.pch</string>
+			<string>FontAwesomeIconFactory/NIKFontAwesomePathRenderer.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
+		</dict>
+		<key>E5F9B11D64718CB4A26F44A42874CCA7</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>F1ADBFC541A478027AF7ABE4E93DFBE5</string>
+			</array>
+			<key>isa</key>
+			<string>PBXFrameworksBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
 		</dict>
 		<key>E8ADD40E7C5245BCAB0CA80B60AD06FB</key>
 		<dict>
 			<key>fileRef</key>
-			<string>AFAB17CB0ECD2AD8FDE88765F7C52F41</string>
+			<string>54BCFCD90CB91645D3520401F2585B54</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
-		</dict>
-		<key>E929B25CDB9D84B81DA6234038F67204</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>NSString+FontAwesome.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>E9F2EA938D27DB1659F5B8810F6E3CD2</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>NIKFontAwesomeIconFactory+iOS.h</string>
-			<key>path</key>
-			<string>FontAwesomeIconFactory/NIKFontAwesomeIconFactory+iOS.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>EA3ECF9C15C1A2957D150DF5904F3EBA</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>CoreText.framework</string>
-			<key>path</key>
-			<string>Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/CoreText.framework</string>
-			<key>sourceTree</key>
-			<string>DEVELOPER_DIR</string>
 		</dict>
 		<key>ED4AECDBFBFFC4466DF47CBF08CC4ACA</key>
 		<dict>
@@ -1844,42 +2214,34 @@
 			<key>productName</key>
 			<string>FontAwesomeIconFactory</string>
 			<key>productReference</key>
-			<string>3F6EDD823D8C41C444726D90EC89AD6C</string>
+			<string>801D0526A864B9065878C8C62C17FD21</string>
 			<key>productType</key>
 			<string>com.apple.product-type.library.static</string>
 		</dict>
-		<key>EFEC3C66A759D149FE67CB455CE8C916</key>
+		<key>F154A48375F1DA9F7D4A90E981F006EA</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>FontAwesome.ttf</string>
 			<key>path</key>
-			<string>FontAwesome-dummy.m</string>
+			<string>Resources/FontAwesome.ttf</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>F86680631FBDEBA015EE620DE52FDC25</key>
+		<key>F1ADBFC541A478027AF7ABE4E93DFBE5</key>
 		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
+			<key>fileRef</key>
+			<string>AA2A4DE27D6679D0AC20AF41DAFD71B6</string>
 			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>NIKFontAwesomePathFactory.m</string>
-			<key>path</key>
-			<string>FontAwesomeIconFactory/NIKFontAwesomePathFactory.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
+			<string>PBXBuildFile</string>
 		</dict>
 		<key>F8EF3D43C145361AF850AE59DF1FAD4E</key>
 		<dict>
 			<key>fileRef</key>
-			<string>084D8D0132A4765A74C28EE67DA8CA8E</string>
+			<string>E4D989C2604A158E9B6BA377DE372E8B</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -1904,10 +2266,23 @@
 			<key>isa</key>
 			<string>XCConfigurationList</string>
 		</dict>
+		<key>F915CA9EC1ADF561B362D998C012B1D7</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>wrapper.framework</string>
+			<key>name</key>
+			<string>CoreText.framework</string>
+			<key>path</key>
+			<string>Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/CoreText.framework</string>
+			<key>sourceTree</key>
+			<string>DEVELOPER_DIR</string>
+		</dict>
 		<key>FA1C6357C62D516E3B617F9F395F2DD2</key>
 		<dict>
 			<key>fileRef</key>
-			<string>7348FD7669862FE01367C502B5EF3498</string>
+			<string>975DB10250A647978208AA9BE8326EE7</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -1918,42 +2293,46 @@
 				</array>
 			</dict>
 		</dict>
+		<key>FBBD9A96B228A65362625FD5CADEA6F9</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>975DB10250A647978208AA9BE8326EE7</string>
+				<string>D76F9F9BF6430B1242D6A8C6ED9325BF</string>
+				<string>26BFE211096A5ACE274C3E05C843862C</string>
+				<string>910B25F4E3B06577232B408FF6185380</string>
+				<string>146B9C4D0BF5A62ECF831211026C1DAD</string>
+				<string>06F4D5940661B6FBEF1F97F41C1D1733</string>
+				<string>3E08FF4872D3C347C2398BF3946E34DC</string>
+				<string>E0AE3B759D2BCEC4FBB0237B948490F1</string>
+				<string>CCC28048C839452C1F134E720FD3FE2B</string>
+				<string>57B44FB00F87B31B49D4419D9041AB1E</string>
+				<string>8C55A6156AA30DD771D7FE2952646884</string>
+				<string>D96AA6C45532FA807F04A451C9B96441</string>
+				<string>7639017873732C04478B20BF68C7F099</string>
+				<string>B9CD921EFC8086D9C71B95E0B9D5AC4B</string>
+				<string>E4D989C2604A158E9B6BA377DE372E8B</string>
+				<string>B794B087C133476D0449AABEAC206EB3</string>
+				<string>93C80E9344F5CBA2DADEC06D0BBAC5A7</string>
+				<string>3CCB51F0EB2F2580136FC93EA83A323D</string>
+				<string>388EA7144212004DA91055854E7A23DA</string>
+				<string>226E0FF72BAC59E4F7F131A8C302A461</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>FontAwesomeIconFactory</string>
+			<key>path</key>
+			<string>FontAwesomeIconFactory</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
 		<key>FE9C306C8E62078371EC3C8B4ACF2FAB</key>
 		<dict>
 			<key>fileRef</key>
-			<string>99B09D3C290DADFB5952F74C0013E89C</string>
+			<string>B81BD95B237A4AFF15810681E28654D0</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
-		</dict>
-		<key>FF43D279ADF186D2FB5FF2F77B5B52D5</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>NIKFontAwesomeIconFactory.h</string>
-			<key>path</key>
-			<string>FontAwesomeIconFactory/NIKFontAwesomeIconFactory.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>FFDE9A1274187F9ACD6CBB160621D0B8</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>NIKFontAwesomeImageView.h</string>
-			<key>path</key>
-			<string>FontAwesomeIconFactory/iOS/NIKFontAwesomeImageView.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
 		</dict>
 	</dict>
 	<key>rootObject</key>
