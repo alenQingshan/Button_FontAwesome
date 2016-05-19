@@ -25,11 +25,13 @@
 //    self.window.rootViewController=tabbar;
     
 #pragma mark - 创建天气类icon
-//    WeatherController *weat = [[WeatherController alloc]init];
-//    self.window.rootViewController=weat;
+    WeatherController *weat = [[WeatherController alloc]init];
+    self.window.rootViewController=weat;
 #pragma mark - 新增icon
-    MasterViewController *mas = [[MasterViewController alloc]init];
-    self.window.rootViewController = mas;
+//    MasterViewController *mas = [[MasterViewController alloc]init];
+//    self.window.rootViewController = mas;
+    
+    
     return YES;
 }
 
