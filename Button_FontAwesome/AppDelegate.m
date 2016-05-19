@@ -8,6 +8,7 @@
 
 #import "AppDelegate.h"
 #import "MainTabbarController.h"
+#import "WeatherController.h"
 @interface AppDelegate ()
 
 @end
@@ -17,8 +18,12 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
-    MainTabbarController *tabbar=[[MainTabbarController alloc]init];
-    self.window.rootViewController=tabbar;
+//    MainTabbarController *tabbar=[[MainTabbarController alloc]init];
+//    self.window.rootViewController=tabbar;
+    
+    WeatherController *weat = [[WeatherController alloc]init];
+    self.window.rootViewController=weat;
+    
 
     return YES;
 }
