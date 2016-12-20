@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  WeatherController.h
 //  Button_FontAwesome
 //
 //  Created by 刘青山 on 16/5/19.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface WeatherController : UIViewController
 
 @end
-
