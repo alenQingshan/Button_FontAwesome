@@ -7,12 +7,15 @@
 //
 
 #import "MainTabbarController.h"
-#import "ViewController.h"
 #import <FontAwesomeIconFactory/NIKFontAwesomeIconFactory.h>
 #import <FontAwesomeIconFactory/NIKFontAwesomeIconFactory+iOS.h>
 #import <NSString+FontAwesome.h>
 #import "MyUtil.h"
+
+
+
 @implementation MainTabbarController
+
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
@@ -28,6 +31,7 @@
     
     UIButton *btn = [MyUtil createBtnFrame:CGRectMake(100, 100, 100, 100) title:@"按钮" backgroundColor:[UIColor grayColor] titleColor:[UIColor whiteColor] font:@"fa-credit-card" target:nil action:nil];
     [self.view addSubview:btn];
+    
     
 }
 /**
@@ -52,5 +56,6 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
+
 
 @end

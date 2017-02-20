@@ -1,13 +1,16 @@
 PODS:
   - FontAwesome (4.5.0)
   - FontAwesomeIconFactory (2.1.1)
+  - VCMaterialDesignIcons (2.1.1)
 
 DEPENDENCIES:
   - FontAwesome (~> 4.3)
   - FontAwesomeIconFactory (~> 2.1)
+  - VCMaterialDesignIcons
 
 SPEC CHECKSUMS:
   FontAwesome: dd8c48bf965e771309d8af17c4d8579217b3e756
   FontAwesomeIconFactory: bb9ce26d3dd13044854a82d380023c8e7d3ebf1a
+  VCMaterialDesignIcons: 68a944308ab41282ba8555770cb57e3fbf2034be
 
 COCOAPODS: 0.39.0

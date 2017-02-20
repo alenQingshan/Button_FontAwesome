@@ -8,6 +8,8 @@
 
 #import "AppDelegate.h"
 #import "MainTabbarController.h"
+#import "WeatherController.h"
+#import "MasterViewController.h"
 @interface AppDelegate ()
 
 @end
@@ -17,9 +19,19 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
-    MainTabbarController *tabbar=[[MainTabbarController alloc]init];
-    self.window.rootViewController=tabbar;
-
+    
+#pragma mark - 创建可以使用icon的tabbarController
+//    MainTabbarController *tabbar=[[MainTabbarController alloc]init];
+//    self.window.rootViewController=tabbar;
+    
+#pragma mark - 创建天气类icon
+    WeatherController *weat = [[WeatherController alloc]init];
+    self.window.rootViewController=weat;
+#pragma mark - 新增icon
+//    MasterViewController *mas = [[MasterViewController alloc]init];
+//    self.window.rootViewController = mas;
+    
+    
     return YES;
 }
 

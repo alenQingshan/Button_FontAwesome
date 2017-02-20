@@ -60,10 +60,12 @@ install_resource()
 if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_resource "FontAwesome/Resources/FontAwesome.ttf"
   install_resource "FontAwesomeIconFactory/Font-Awesome/fonts/FontAwesome.otf"
+  install_resource "VCMaterialDesignIcons/Material-Design-Iconic-Font.ttf"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
   install_resource "FontAwesome/Resources/FontAwesome.ttf"
   install_resource "FontAwesomeIconFactory/Font-Awesome/fonts/FontAwesome.otf"
+  install_resource "VCMaterialDesignIcons/Material-Design-Iconic-Font.ttf"
 fi
 
 mkdir -p "${CONFIGURATION_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}"

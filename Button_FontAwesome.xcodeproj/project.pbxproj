@@ -8,10 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		6D796E6A3AF221B1633B4263 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F790702AF1CCDFF98F93687C /* libPods.a */; };
+		EA2ABAD21CED82E90034F9C2 /* Pe-icon-7-weather.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EA2ABAD11CED82E90034F9C2 /* Pe-icon-7-weather.ttf */; };
+		EA2ABAD51CED84EA0034F9C2 /* WeatherController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA2ABAD41CED84EA0034F9C2 /* WeatherController.m */; };
+		EA2ABADB1CED8A300034F9C2 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA2ABAD81CED8A300034F9C2 /* DetailViewController.m */; };
+		EA2ABADC1CED8A300034F9C2 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA2ABADA1CED8A300034F9C2 /* MasterViewController.m */; };
 		EA3F4EFC1CED4F9D0041DE12 /* MyUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = EA3F4EFB1CED4F9D0041DE12 /* MyUtil.m */; };
 		EA9AEE9F1CED4D5E009EFF61 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EA9AEE9E1CED4D5E009EFF61 /* main.m */; };
 		EA9AEEA21CED4D5E009EFF61 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EA9AEEA11CED4D5E009EFF61 /* AppDelegate.m */; };
-		EA9AEEA51CED4D5E009EFF61 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA9AEEA41CED4D5E009EFF61 /* ViewController.m */; };
 		EA9AEEA81CED4D5E009EFF61 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA9AEEA61CED4D5E009EFF61 /* Main.storyboard */; };
 		EA9AEEAA1CED4D5E009EFF61 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA9AEEA91CED4D5E009EFF61 /* Assets.xcassets */; };
 		EA9AEEAD1CED4D5E009EFF61 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA9AEEAB1CED4D5E009EFF61 /* LaunchScreen.storyboard */; };
@@ -40,14 +43,20 @@
 /* Begin PBXFileReference section */
 		482D006EE030F81AD2736300 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		71A0E939AA4CCEAA270B11EA /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		EA2ABAD01CED82E90034F9C2 /* FontHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FontHeader.h; sourceTree = "<group>"; };
+		EA2ABAD11CED82E90034F9C2 /* Pe-icon-7-weather.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pe-icon-7-weather.ttf"; sourceTree = "<group>"; };
+		EA2ABAD31CED84EA0034F9C2 /* WeatherController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeatherController.h; sourceTree = "<group>"; };
+		EA2ABAD41CED84EA0034F9C2 /* WeatherController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WeatherController.m; sourceTree = "<group>"; };
+		EA2ABAD71CED8A300034F9C2 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		EA2ABAD81CED8A300034F9C2 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		EA2ABAD91CED8A300034F9C2 /* MasterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
+		EA2ABADA1CED8A300034F9C2 /* MasterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
 		EA3F4EFA1CED4F9D0041DE12 /* MyUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyUtil.h; sourceTree = "<group>"; };
 		EA3F4EFB1CED4F9D0041DE12 /* MyUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyUtil.m; sourceTree = "<group>"; };
 		EA9AEE9A1CED4D5E009EFF61 /* Button_FontAwesome.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Button_FontAwesome.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA9AEE9E1CED4D5E009EFF61 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		EA9AEEA01CED4D5E009EFF61 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		EA9AEEA11CED4D5E009EFF61 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		EA9AEEA31CED4D5E009EFF61 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		EA9AEEA41CED4D5E009EFF61 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		EA9AEEA71CED4D5E009EFF61 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EA9AEEA91CED4D5E009EFF61 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EA9AEEAC1CED4D5E009EFF61 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -106,9 +115,31 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		EA2ABACF1CED82E90034F9C2 /* weather */ = {
+			isa = PBXGroup;
+			children = (
+				EA2ABAD01CED82E90034F9C2 /* FontHeader.h */,
+				EA2ABAD11CED82E90034F9C2 /* Pe-icon-7-weather.ttf */,
+			);
+			path = weather;
+			sourceTree = "<group>";
+		};
+		EA2ABAD61CED8A300034F9C2 /* more */ = {
+			isa = PBXGroup;
+			children = (
+				EA2ABAD71CED8A300034F9C2 /* DetailViewController.h */,
+				EA2ABAD81CED8A300034F9C2 /* DetailViewController.m */,
+				EA2ABAD91CED8A300034F9C2 /* MasterViewController.h */,
+				EA2ABADA1CED8A300034F9C2 /* MasterViewController.m */,
+			);
+			path = more;
+			sourceTree = "<group>";
+		};
 		EA9AEE911CED4D5E009EFF61 = {
 			isa = PBXGroup;
 			children = (
+				EA2ABAD61CED8A300034F9C2 /* more */,
+				EA2ABACF1CED82E90034F9C2 /* weather */,
 				EA9AEE9C1CED4D5E009EFF61 /* Button_FontAwesome */,
 				EA9AEEB61CED4D5E009EFF61 /* Button_FontAwesomeTests */,
 				EA9AEEC11CED4D5E009EFF61 /* Button_FontAwesomeUITests */,
@@ -137,8 +168,8 @@
 				EA3F4EFB1CED4F9D0041DE12 /* MyUtil.m */,
 				EA9AEED01CED4E3D009EFF61 /* MainTabbarController.h */,
 				EA9AEED11CED4E3D009EFF61 /* MainTabbarController.m */,
-				EA9AEEA31CED4D5E009EFF61 /* ViewController.h */,
-				EA9AEEA41CED4D5E009EFF61 /* ViewController.m */,
+				EA2ABAD31CED84EA0034F9C2 /* WeatherController.h */,
+				EA2ABAD41CED84EA0034F9C2 /* WeatherController.m */,
 				EA9AEEA61CED4D5E009EFF61 /* Main.storyboard */,
 				EA9AEEA91CED4D5E009EFF61 /* Assets.xcassets */,
 				EA9AEEAB1CED4D5E009EFF61 /* LaunchScreen.storyboard */,
@@ -281,6 +312,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EA9AEEAD1CED4D5E009EFF61 /* LaunchScreen.storyboard in Resources */,
+				EA2ABAD21CED82E90034F9C2 /* Pe-icon-7-weather.ttf in Resources */,
 				EA9AEEAA1CED4D5E009EFF61 /* Assets.xcassets in Resources */,
 				EA9AEEA81CED4D5E009EFF61 /* Main.storyboard in Resources */,
 			);
@@ -356,10 +388,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				EA3F4EFC1CED4F9D0041DE12 /* MyUtil.m in Sources */,
-				EA9AEEA51CED4D5E009EFF61 /* ViewController.m in Sources */,
 				EA9AEEA21CED4D5E009EFF61 /* AppDelegate.m in Sources */,
 				EA9AEED21CED4E3D009EFF61 /* MainTabbarController.m in Sources */,
+				EA2ABAD51CED84EA0034F9C2 /* WeatherController.m in Sources */,
 				EA9AEE9F1CED4D5E009EFF61 /* main.m in Sources */,
+				EA2ABADB1CED8A300034F9C2 /* DetailViewController.m in Sources */,
+				EA2ABADC1CED8A300034F9C2 /* MasterViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -14,10 +14,10 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = 'BDEF9C04E4ED0552E8D35818'
-               BlueprintName = 'FontAwesome'
+               BlueprintIdentifier = 'C083231F16B6C96D02170B90'
+               BlueprintName = 'VCMaterialDesignIcons'
                ReferencedContainer = 'container:Pods.xcodeproj'
-               BuildableName = 'libFontAwesome.a'>
+               BuildableName = 'libVCMaterialDesignIcons.a'>
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
