@@ -12,7 +12,7 @@
 #import <NSString+FontAwesome.h>
 @implementation MyUtil
 
-+(UIButton *)createBtnFrame:(CGRect)frame title:(NSString *)title backgroundColor:(UIColor *)color titleColor:(UIColor *)titleColor font:(NSString *)fontawesome target:(id)target action:(SEL)action
++(UIButton *)createBtnFrame:(CGRect)frame title:(NSString *)title backgroundColor:(UIColor *)color titleColor:(UIColor *)titleColor target:(id)target action:(SEL)action
 {
     UIButton *btn = [UIButton buttonWithType:UIButtonTypeCustom];
     btn.contentEdgeInsets = UIEdgeInsetsMake(30, 0, 0, 0);
@@ -29,14 +29,7 @@
     if (target && action) {
         [btn addTarget:target action:action forControlEvents:UIControlEventTouchUpInside];
     }
-    if (fontawesome) {
-        UILabel *label = [[UILabel alloc]initWithFrame:CGRectMake(0, 0, frame.size.width, frame.size.height-20)];
-        label.font = [UIFont fontWithName:kFontAwesomeFamilyName size:24];
-        label.textAlignment = NSTextAlignmentCenter;
-        label.text = [NSString fontAwesomeIconStringForEnum:FAGithub];
-        label.text = [NSString fontAwesomeIconStringForIconIdentifier:fontawesome];
-        [btn addSubview:label];
-    }
+
     btn.titleLabel.font=[UIFont systemFontOfSize:14];
     return btn;
 }

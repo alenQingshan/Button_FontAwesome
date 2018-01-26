@@ -10,6 +10,6 @@
 #import <UIKit/UIKit.h>
 @interface MyUtil : NSObject
 
-+(UIButton *)createBtnFrame:(CGRect)frame title:(NSString *)title backgroundColor:(UIColor *)color titleColor:(UIColor *)titleColor font:(NSString *)fontawesome target:(id)target action:(SEL)action;
++(UIButton *)createBtnFrame:(CGRect)frame title:(NSString *)title backgroundColor:(UIColor *)color titleColor:(UIColor *)titleColor target:(id)target action:(SEL)action;
 
 @end

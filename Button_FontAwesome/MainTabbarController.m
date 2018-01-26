@@ -13,6 +13,10 @@
 #import <NSString+FontAwesome.h>
 #import "MyUtil.h"
 @implementation MainTabbarController
+{
+    UILabel *_label;
+    NSArray *_array;
+}
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
@@ -20,14 +24,25 @@
     self.view.backgroundColor = [UIColor whiteColor];
     
     UIViewController *notes=[[UIViewController alloc]init];
-    [self addChildViewController:notes withTitle:@"首页" image:[factory createImageForIcon:NIKFontAwesomeIconHome] selectedImage:nil];
-    
+    [self addChildViewController:notes withTitle:@"首页" image:[factory createImageForIcon:NIKFontAwesomeIconAdjust] selectedImage:nil];
+    //NIKFontAwesomeIconAdjust修改即可改变样式
     self.tabBar.tintColor=[UIColor blueColor];
     self.tabBar.backgroundColor=[UIColor whiteColor];
     
     
-    UIButton *btn = [MyUtil createBtnFrame:CGRectMake(100, 100, 100, 100) title:@"按钮" backgroundColor:[UIColor grayColor] titleColor:[UIColor whiteColor] font:@"fa-credit-card" target:nil action:nil];
+    
+    
+    UIButton *btn = [MyUtil createBtnFrame:CGRectMake((self.view.frame.size.width-200)/2, (self.view.frame.size.height-200)/2, 200, 200) title:@"" backgroundColor:[UIColor grayColor] titleColor:[UIColor whiteColor] target:self action:@selector(abcdefg:)];
     [self.view addSubview:btn];
+    _label = [[UILabel alloc]initWithFrame:btn.bounds];
+    _label.textColor = [UIColor whiteColor];
+    _label.font = [UIFont fontWithName:kFontAwesomeFamilyName size:50];
+    _label.textAlignment = NSTextAlignmentCenter;
+    _label.text = [NSString fontAwesomeIconStringForEnum:FAGithub];
+    _label.text = [NSString fontAwesomeIconStringForIconIdentifier:@"fa-usb"];
+    [btn addSubview:_label];
+    
+    _array = @[@"fa-bluetooth",@"fa-bluetooth-b",@"fa-codiepie",@"fa-credit-card-alt",@"fa-fort-awesome",@"fa-percent",@"fa-shopping-bag",@"fa-shopping-basket",@"fa-stop-circle",@"fa-usb"];
     
 }
 /**
@@ -39,6 +54,7 @@
  *  @param selectedImage   tabbaritem选中图片
  */
 -(void)addChildViewController:(UIViewController *)childController withTitle:(NSString *)title image:(UIImage *)image selectedImage:(UIImage *)selectedImage{
+    
     childController.tabBarItem=[[UITabBarItem alloc]initWithTitle:title image:image selectedImage:[selectedImage imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal]];
     [childController.tabBarItem setTitleTextAttributes:@{NSForegroundColorAttributeName:[UIColor blueColor]} forState:UIControlStateSelected];
     /**
@@ -53,4 +69,16 @@
     // Dispose of any resources that can be recreated.
 }
 
+
+-(void)abcdefg:(UIButton *)btn
+{
+    int x = arc4random() % 10;
+    _label.text = [NSString fontAwesomeIconStringForEnum:FAGithub];
+    _label.text = [NSString fontAwesomeIconStringForIconIdentifier:_array[x]];
+    
+}
+
+
+
 @end
+
